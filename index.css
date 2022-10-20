@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(77, 77, 77);
+}
+#menu ul li{
+    display: inline;
+}
+
+#menu ul{
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+#menu ul li a{
+    display: inline-block;
+    padding: 2px 10px;
+    color: brown;
+}
+
+#menu{
+    text-align: center;
+}
