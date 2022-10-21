@@ -4,7 +4,6 @@ body{
 #menu ul li{
     display: inline;
 }
-
 #menu ul{
     margin: 0;
     background-color: rgb(0, 0, 0);
@@ -19,17 +18,13 @@ body{
 #menu{
     text-align: center;
 }
+
 #imgs{
     display: inline;
 }
 
-/* #texts{
-    color: aliceblue;
-    display: inline;
-} */
-
 .imgRoh{
-    margin-top: 6%;
+    margin-top: 4%;
     height: 200px;
     width: 200px;
     border-radius: 50%;
@@ -37,24 +32,63 @@ body{
 }
 
 .imgFelipe{
-    margin-top: 6%;
+    margin-top: 4%;
     height: 200px;
     width: 200px;
     border-radius: 50%;
     margin-left: 20%;
 }
 
-#texts ul li p{
+#nomes ul li p{
     display: inline-block;
-    padding: 2px 185px;
+    padding: 2px 200px;
     color: aliceblue;
 }
 
-.nomeRoh{
-    margin-left: 140px;
+#nomeRoh{
+    margin-left: 162px;
+    font-family: sans-serif;
 }
 
-#texts ul li{
+#nomeFelipe{
+    font-family: sans-serif;
+}
+
+#nomes ul li{
+    display: inline-block;   
+}
+
+#informacoesRoh{
+    margin-left: 20%;
+    color: aliceblue;
     display: inline-block;
-    
+}
+
+#informacoesFelipe{
+    margin-left: 8%;
+    color: aliceblue;
+    display: inline-block;
+}
+
+#informacoesGerais h3{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+#midias ul{
+    display: inline-block;
+}
+
+#midias h3{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+#midiasRoh{
+    color: rgb(244, 244, 244);
+    margin-left: 20%;
+}
+#midiasFelipe{   
+    color: aliceblue;
+    margin-left: 20%;
 }
