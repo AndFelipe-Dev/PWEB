@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    background-color: rgb(206, 197, 197);
+}
+#menu ul li{
+    display: inline;
+}
+#menu ul{
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+#menu ul li a{
+    display: inline-block;
+    padding: 2px 100px;
+    color: rgba(255, 0, 0, 0.808);
+    font-family: sans-serif;
+}
+#menu{
+    text-align: center;
+    /* position: sticky;
+    top: 0px; */
+}
+
+.mudaCor:hover{
+    color: aliceblue;
+}
+
+main{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+
+}
+
+#divBorder{
+    background-color: rgb(224, 224, 224);
+    height: 900px;
+    width: 1000px;
+    border: 5px solid rgb(24, 0, 0);
+    border-radius: 20px;
+    position: relative;
+}
+
+.tituloComponentes{
+    position: absolute; 
+
+    height: 70px;
+    width: 100%;
+
+    background-color: rgb(24, 0, 0);
+    color: aliceblue;
+    text-align: center;
+
+    border-radius: 14px;
+
+    
+}
+
+.infoComponentes{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+.tamanhoFonte{
+    font-size: 21px;
+    padding-left: 8px;
+}
+
+.imgMidias{
+    width: 32px;
+    height: 25px;
+    border-radius: 5px;
+    
+}
+
+.alinhaImgs, .imgMidias{
+    display: flex;
+    align-items: center;
+}
+
+.atuacoes{
+    margin-left: 18px;
+}

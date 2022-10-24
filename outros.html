@@ -2,35 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="outros.css" type="text/css">
+    <title>Outros</title>
 </head>
 <body>
-    body{
-    background-color: rgb(22, 21, 21);
-}
-#menu ul li{
-    display: inline;
-}
-#menu ul{
-    margin: 0;
-    background-color: rgb(0, 0, 0);
-}
+    <div id="menu">
+        <ul>
+            <li><a href="index.html"><h2 class="mudaCor">Home</h2></a></li>
+            <li><a href="curriculo.html"><h2 class="mudaCor">Currículo</h2></a></li>
+            <li><a href="outros.html"><h2 class="mudaCor">Outros</h2></a></li>
+        </ul>
+    </div>
 
-#menu ul li a{
-    display: inline-block;
-    padding: 2px 100px;
-    color: rgb(196, 0, 0);
-}
-#menu{
-    text-align: center;
-}
+    <main>
+        <div id="divBorder">
+            <div class="tituloComponentes"><h2>Componentes Curriculares</h2></div>
+        
+            <div class="infoComponentes">
+                <h2>Desenvolvimento de Sistemas:</h2>
+                <ul>
+                    <li class="alinhaImgs"><img src="Imagens/java.jpg" alt="Java img" class="imgMidias"><p class="tamanhoFonte">Programação Orientada a Objetos(Java) - 80h</p></li>
+                    <li class="alinhaImgs"><img src="Imagens/python.jpg" alt="python img" class="imgMidias"><p class="tamanhoFonte">Introdução a Programação(Python) - 160h</p></li>
+                    <li class="alinhaImgs"><img src="Imagens/finf.jpg" alt="finf img" class="imgMidias"><p class="tamanhoFonte">Fundamentos da Informática - 120h</p></li>
+                    <li class="alinhaImgs"><img src="Imagens/html.jpg" alt="html img" class="imgMidias"><p class="tamanhoFonte">Programação Web(HTML5, CSS, JS) - 160h</p></li>
+                    <li class="alinhaImgs"><img src="Imagens/bcdd.jpg" alt="bcdd img" class="imgMidias"><p class="tamanhoFonte">Banco de Dados - 160H</p></li>
+                    <li class="alinhaImgs"><img src="Imagens/redes.jpg" alt="redes img" class="imgMidias"><p class="tamanhoFonte">Fundamentos de Sistemas Operacionais e Redes - 80h</p></li>
+                </ul>
+                <h2>Possíveis áreas de atuação:</h2>
+                <ul class="atuacoes">
+                    <li><p class="tamanhoFonte">Desenvolvimento Web.</p></li>
+                    <li><p class="tamanhoFonte">Programação de Computadores.</p></li>
+                    <li><p class="tamanhoFonte">Manutenção de Computadores.</p></li>
+                    <li><p class="tamanhoFonte">Manutenção e Suporte a Redes.</p></li>
+                    <li><p class="tamanhoFonte">Operador de Banco de Dados.</p></li>
+                    
+                </ul>
+            </div>
+        </div>
+        
+    </main>
 
-table, th, td{
-    border: 1px solid white;
-    color: aliceblue;
-    border-collapse: collapse;
-}
 </body>
 </html>

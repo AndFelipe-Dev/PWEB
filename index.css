@@ -1,5 +1,9 @@
+*{
+    font-family: sans-serif;
+}
 body{
-    background-color: rgb(22, 21, 21);
+    background-color: rgb(231, 225, 225);
+    margin: 0;
 }
 #menu ul li{
     display: inline;
@@ -12,11 +16,18 @@ body{
 #menu ul li a{
     display: inline-block;
     padding: 2px 100px;
-    color: rgb(196, 0, 0);
+    color: rgba(255, 0, 0, 0.89);
 }
 
 #menu{
     text-align: center;
+    margin-right: 0px;
+    position: sticky;
+    top: 0;
+}
+
+.mudaCor:hover{
+    color: aliceblue;
 }
 
 #imgs{
@@ -29,6 +40,7 @@ body{
     width: 200px;
     border-radius: 50%;
     margin-left: 24%;
+    border: 2px solid rgb(117, 0, 0);
 }
 
 .imgFelipe{
@@ -37,21 +49,22 @@ body{
     width: 200px;
     border-radius: 50%;
     margin-left: 20%;
+    border: 2px solid rgb(117, 0, 0);
 }
 
 #nomes ul li p{
     display: inline-block;
-    padding: 2px 200px;
-    color: aliceblue;
+    color: rgb(11, 12, 14);
 }
 
 #nomeRoh{
-    margin-left: 162px;
+    margin-left: 320px;
     font-family: sans-serif;
 }
 
 #nomeFelipe{
     font-family: sans-serif;
+    margin-left: 366px;
 }
 
 #nomes ul li{
@@ -59,36 +72,52 @@ body{
 }
 
 #informacoesRoh{
-    margin-left: 20%;
-    color: aliceblue;
+    margin-left: 18%;
+    color: rgb(11, 13, 14);
     display: inline-block;
 }
 
 #informacoesFelipe{
-    margin-left: 8%;
-    color: aliceblue;
+    margin-left: 3%;
+    color: rgb(0, 0, 0);
     display: inline-block;
 }
 
 #informacoesGerais h3{
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 #midias ul{
     display: inline-block;
+
+}
+#midias ul li{
+    padding-bottom: 20px;
+    
 }
 
 #midias h3{
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 #midiasRoh{
-    color: rgb(244, 244, 244);
+    color: rgb(0, 0, 0);
     margin-left: 20%;
 }
 #midiasFelipe{   
-    color: aliceblue;
-    margin-left: 20%;
+    color: rgb(0, 0, 0);
+    margin-left: 15%;
+}
+
+.imgMidias{
+    width: 32px;
+    height: 25px;
+    border-radius: 40%;
+    padding-right: 5px;
+}
+.midiasRoh, .alinhaImgs, .imgMidias{
+    display: flex;
+    align-items: center;
 }
